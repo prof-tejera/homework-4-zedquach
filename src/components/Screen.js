@@ -1,15 +1,16 @@
-const Screen = ({ value }) => {
+const Screen = ({ value, equation }) => {
   return (
     <div
       style={{
         border: "1px solid black",
-        width: 300,
-        height: 70,
+        width: "100%",
+        height: "90px",
         textAlign: "right",
-        marginBottom: 10,
+        marginBottom: "10px",
       }}
     >
-      {value}
+      <div style={{height: "30px"}}>{equation}</div>
+      <div style={{height: "60px", fontSize:"50px"}}>{value}</div>
     </div>
   );
 };

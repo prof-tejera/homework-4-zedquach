@@ -1,15 +1,26 @@
-const Number = ({ value, onClick }) => {
-  /** TODO: What happens when a user clicks a number, what do we want to pass to our parent? */
+import { useState } from "react";
+import styles from "../style/Button.module.css";
+
+const Number = ({ value, onClick, style}) => {
+  const [clicked, setClicked] = useState(false)
   return (
-    <div
+    <button
       style={{
-        padding: 10,
+        width: "60px",
         border: "1px solid black",
-        width: 60,
+        cursor: "pointer",
+        flexGrow: "1",
+        ...style
       }}
+      onClick={() => {
+        onClick(value)
+      }}
+      onMouseDownCapture={() => setClicked(true)}
+      onAnimationEnd={() => setClicked(false)}
+      className={clicked ? styles.clickAnimate : ""}
     >
       {value}
-    </div>
+    </button>
   );
 };
 
