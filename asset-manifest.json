@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3843f75a.css",
-    "main.js": "/static/js/main.26d92005.js",
-    "static/js/787.17605ffb.chunk.js": "/static/js/787.17605ffb.chunk.js",
-    "index.html": "/index.html",
-    "main.3843f75a.css.map": "/static/css/main.3843f75a.css.map",
-    "main.26d92005.js.map": "/static/js/main.26d92005.js.map",
-    "787.17605ffb.chunk.js.map": "/static/js/787.17605ffb.chunk.js.map"
+    "main.css": "/homework-4-zedquach/static/css/main.3843f75a.css",
+    "main.js": "/homework-4-zedquach/static/js/main.cd844def.js",
+    "static/js/787.17605ffb.chunk.js": "/homework-4-zedquach/static/js/787.17605ffb.chunk.js",
+    "index.html": "/homework-4-zedquach/index.html",
+    "main.3843f75a.css.map": "/homework-4-zedquach/static/css/main.3843f75a.css.map",
+    "main.cd844def.js.map": "/homework-4-zedquach/static/js/main.cd844def.js.map",
+    "787.17605ffb.chunk.js.map": "/homework-4-zedquach/static/js/787.17605ffb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3843f75a.css",
-    "static/js/main.26d92005.js"
+    "static/js/main.cd844def.js"
   ]
 }
