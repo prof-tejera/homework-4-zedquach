@@ -92,6 +92,8 @@ const Calculator = () => {
 
       case "/":
         return parseFloat(first) / parseFloat(second)
+      default:
+        return 0
     }
   }
 
