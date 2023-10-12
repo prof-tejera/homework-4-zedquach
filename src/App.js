@@ -5,6 +5,8 @@ function App() {
     <div
       style={{
         display: "flex",
+        flexDirection: "row",
+        width: "400px",
         height: "100%",
         justifyContent: "center",
         alignItems: "center",

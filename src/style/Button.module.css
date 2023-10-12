@@ -1,0 +1,20 @@
+.clickAnimate {
+    /*box-shadow: inset 5px 5px 5px midnightblue;*/
+    animation-name: shadowKeyframe;
+    animation-direction: normal;
+    animation-duration: 0.5s;
+}
+
+@keyframes shadowKeyframe {
+    0% {
+        box-shadow: none;
+    }
+    50% {
+        box-shadow: inset 0 0 10px dimgray;
+    }
+
+    100% {
+        box-shadow: none;
+    }
+
+}

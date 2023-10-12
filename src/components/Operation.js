@@ -1,15 +1,23 @@
-const Operation = ({ value }) => {
-  /** TODO: What happens when a user clicks an Operation, what do we want to pass to our parent? */
+import styles from "../style/Button.module.css";
+import { useState } from "react";
+
+const Operation = ({ value, onClick }) => {
+  const [clicked, setClicked] = useState(false)
   return (
-    <div
+    <button
       style={{
         padding: 10,
         border: "1px solid black",
         width: 60,
+        cursor: "pointer"
       }}
+      onClick={() => onClick(value)}
+      onMouseDownCapture={() => setClicked(true)}
+      onAnimationEnd={() => setClicked(false)}
+      className={clicked ? styles.clickAnimate : ""}
     >
       {value}
-    </div>
+    </button>
   );
 };
 
